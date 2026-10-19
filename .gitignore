@@ -1,0 +1,36 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*credentials*
+*secret*
+
+# Local configuration files that may contain passwords
+application-local.properties
+database-local.properties
+config-local.properties
+
+# IDE-specific files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# VS Code workspace settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
